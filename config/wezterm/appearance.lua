@@ -6,6 +6,7 @@ function module.apply_to_config(config)
 
     -- tab bar
     config.use_fancy_tab_bar = false
+    config.tab_bar_at_bottom = true
 
     -- fonts (mutiple settings)
     config.font_size = 12.0
