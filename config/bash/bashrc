@@ -1,0 +1,5 @@
+# I decide to start config my shell env starting from bash. Fish or other shells should be started from bash and inherit its settings.
+
+# config starship
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
+eval "$(starship init bash)"
